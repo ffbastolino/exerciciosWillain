@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-devide-width, initial-scale =1,shrink-to-fit=no">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="css/sb-admin.min.css">
+    <link rel="stylesheet" type="text/css" href="bibliotecas/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="bibliotecas/bootstrap/css/bootstrap.min.css">
+    <style type="text/css">
+    </style>
+</head>
+
+<body style="background-color: #778899" id="page-top" class="fixed-nav sticky-footer">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: #778899 ">
+        <a class="navbar-brand" href="Dashboard.html">Sistema de Atividades</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarSoftDesign" aria-control="navbarSoftDesign" aria-expanded="false"
+            aria-label="Navegação Toggle">
+            <span class="navbar-toggler-icon">
+            </span>
+        </button>
+        <div id="navbarSoftDesign" class="collapse navbar-collapse">
+            <ul class="navbar-nav navbar-sidenav text-white" style=background-color:#708090>
+                <li class="nav-item" data-toggle="tolltip" data-placement="right">
+                    <a class="nav-link" hreaf="#">
+                        <i class="fa fa-fw fa-dashboard" style="color:white"></i>
+                        <span class="nav-link-text" style="color:white">Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-toggle="tolltip" data-placement="right">
+                    <a class="nav-link" hreaf="#">
+                        <i class="fa fa-fw fa-table" style="color:white"></i>
+                        <span class="nav-link-text" style="color:white">Planilhas</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-toggle="tolltip" data-placement="right">
+                    <a class="nav-link" hreaf="#">
+                        <i class="fa fa-fw fa-history" style="color:white"></i>
+                        <span class="nav-link-text" style="color:white">Gráfico de Horas</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-toggle="tolltip" data-placement="right">
+                    <a class="nav-link" hreaf="#">
+                        <i class="fa fa-fw fa-phone-square" style="color:white"></i>
+                        <span class="nav-link-text" style="color:white">Talk to Helena</span>
+                    </a>
+                    <ul class="sidenav-second-level collapse ">
+
+                    </ul>
+                </li>
+            </ul>
+            <ul class="navbar-nav sidenav-toggler">
+                <li class="nav-item">
+                    <a id="sidenavToggler" class="nav-link text-center">
+                        <i class="fa fa-fw fa-angle-left"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <form class="form-inline my-2 my-lg-0 mr-lg-2">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Pesquisar por...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-primary" type="button">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </form>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-sign-out">LogOut</i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="content-wrapper">
+        <div class="container-fluid">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="DashBoard.html">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                    Página em branco
+                </li>
+            </ol>
+            <div class="row">
+                <div class="col-12">
+                    <h1>Titulo da Página</h1>
+                    <p>Essa é uma página para o futuro SCA</p>
+                </div>
+            </div>
+        </div>
+       
+        <div class="row justify-content-center">
+            <div class="col-sm-3 justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top"
+                        src="data:image/png;base64,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"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Lista Telefonica</h5>
+                        <p class="card-text">Este card é utilizado para listar todos os telefones da Soft.</p>
+                        <a href="#" class="btn btn-primary">Listar</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top "
+                        src="https://img.paraviagem.com.br/uploads/2013/11/perfil-visitantes.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Lista Gráficos</h5>
+                        <p class="card-text">Este card é utilizado para listar todos os gráficos.</p>
+                        <a href="#" class="btn btn-primary">Listar</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top"
+                        src="https://image.shutterstock.com/image-vector/help-me-vector-banner-on-450w-608978792.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Ajude um Trainee</h5>
+                        <p class="card-text">Este card é utilizado para você ajudar um trainee</p>
+                        <a href="#" class="btn btn-primary">AJUDAR HELP</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top"
+                        src="https://image.freepik.com/vetores-gratis/modelo-de-calendario-de-volta-as-aulas_23-2147921365.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Lista Aulas</h5>
+                        <p class="card-text">Este card é utilizado para listar todas as aulas dos trainees.</p>
+                        <a href="#" class="btn btn-primary">Listar</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid h-100 d-inline-block">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Sobrenome</th>
+                        <th scope="col">Telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Felipe</td>
+                        <td>Bastos</td>
+                        <td>(51)999999999</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Thalles</td>
+                        <td>Bueno</td>
+                        <td>(51)888888888</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Andressa</td>
+                        <td>Gaspar</td>
+                        <td>(51)777777777</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Willian</td>
+                        <td>Guimarães</td>
+                        <td>(51)666666666</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Vitor</td>
+                        <td>Silva</td>
+                        <td>(51)555555555</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+        </div>
+        <footer class="sticky-footer">
+            <div class="container">
+                <div class="text-center">
+                    <small>Copyright SoftDesign 2019</small>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="bibliotecas/jquery/jquery.min.js"></script>
+    <script src="bibliotecas/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bibliotecas/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/sb-admin.min.js" type="text/javascript"></script>
+</body>
+
+</html>
